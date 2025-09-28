@@ -1,0 +1,19 @@
+.nav-grid {
+  display: grid;
+  grid-template-columns: auto repeat(6, max-content);
+  align-items: center;
+  gap: 20px; /* spacing between items */
+  padding: 10px 20px;
+  background-color: #fff; /* optional background */
+}
+
+.nav-grid a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.logo {
+  width: 50px; /* adjust as needed */
+  height: auto;
+}

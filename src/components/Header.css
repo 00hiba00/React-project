@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Gray background */
+  padding: 2rem;
+  position: relative;
+  overflow: hidden; /* Allows image to overlap a bit */
+}
+
+.header-left {
+  color: white;
+  max-width: 50%;
+}
+
+.title {
+  color: #f4d03f; /* Yellow */
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  color: white;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.reserve-btn {
+  background-color: #f4d03f; /* Yellow */
+  color: black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header-right {
+  max-width: 50%;
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: -20px; /* Makes image “surpass” the bottom of header */
+}

@@ -1,0 +1,26 @@
+.footer {
+  background-color: #222; /* Dark background */
+  padding: 1rem 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  height: 30px; /* Small logo */
+}
+
+.footer-nav a {
+  color: #aaa; /* Light gray */
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.footer-nav a:hover {
+  color: #f4ce14; /* Optional hover effect */
+}
